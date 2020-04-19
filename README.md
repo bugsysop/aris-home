@@ -1,2 +1,2 @@
-# aris-site
-My personal site living at https://aris.papatheodorou.net
+# aris
+Static files for my personal portal living at https://aris.papatheodorou.net

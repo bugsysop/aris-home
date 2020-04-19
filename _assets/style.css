@@ -2,7 +2,7 @@ html {
   height: 100%;
   color: #222;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.063em;
+  font-size: 1em;
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
 }
@@ -12,6 +12,15 @@ body {
   margin: 0 auto;
   display: table;
   background-color: #222;
+  /* */
+  background-image: url("https://source.unsplash.com/fg_FSTo7ejw/1600x900");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
 }
 
 #container {
@@ -22,8 +31,8 @@ body {
 }
 
 .title {
-  color: #FFF;
-  font-size: 2.176em;
+  color: #fff;
+  font-size: 2.4em;
   line-height: 1.48;
   font-weight: 700;
 }
@@ -46,8 +55,8 @@ body {
   padding-bottom: 1px;
   text-transform: lowercase;
   display: inline-block;
-  color: #777;
-  border: 1px solid #3E3E3E;
+  color: #fff;
+  border: 1px solid #fff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -63,11 +72,17 @@ body {
 }
 
 #social-links li a:hover {
-  color: #FFF;
+  color: #fff;
+}
+
+#social-links li a.global:hover {
+  border-color: #222;
+  background-color: #222;
 }
 
 #social-links li a.twitter:hover {
   border-color: #29C5F6;
+  background-color: #29C5F6;
 }
 
 #social-links li a.codepen:hover {
