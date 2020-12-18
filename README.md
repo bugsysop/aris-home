@@ -1,2 +1,3 @@
 # aris
-Static files for my personal portal living at https://aris.papatheodorou.net
+Fichiers statiques pour ma page d’accueil personnelle visible à l’URL :  
+https://papatheodorou.net
